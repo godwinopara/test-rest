@@ -1,0 +1,23 @@
+.App {
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+}
+
+table {
+  grid-column: span 2;
+  text-align: center;
+  height: 80px;
+}
+
+.regions button {
+  display: block;
+  width: 180px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
